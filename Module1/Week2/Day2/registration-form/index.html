@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <label for="Fname">First Name</label><br>
+    <input type="text" name="Fname" id="Fname"><br><br>
+    <label for="Lname">Last Name</label><br>
+    <input type="text" name="Lname" id="Lname"><br><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="zip">Zip Code</label><br>
+    <input type="number" name="zip" id="zip" placeholder="123456" max="999999"><br><br>
+    <label for="password">Password</label><br>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="ps">Practicing Status</label><br>
+    <input type="radio" name="ps" id="0" value="0">
+    <label for="0">Practicing Lawyer</label><br>
+    <input type="radio" name="ps" id="1" value="1">
+    <label for="1">Non Practicing Lawyer</label><br>
+    <input type="radio" name="ps" id="2" value="2">
+    <label for="2">Retired Lawyer</label><br><br>
+    <label for="exp">Area of legal expertise</label><br>
+    <select name="exp" id="exp">
+        <option value="other">Other</option>
+        <option value="antitrust">Antitrust</option>
+        <option value="civilRights">Civil Rights</option>
+        <option value="inmigration">Immigration</option>
+        <option value="memes">Memes</option>
+        <option value="gaming">Gaming</option>
+        <option value="pretending">Pretending to work</option>        
+    </select><br><br>
+    <label for="years_exp">Years of experience</label><br>
+    <input type="number" name="years_exp" id="years_exp" min="0" max="60"><br><br>
+    <label for="lang">Languages</label><br>
+    <input type="checkbox" name="es" id="es">
+    <label for="es">Spanish</label><br>
+    <input type="checkbox" name="en" id="en">
+    <label for="en">English</label><br>
+    <input type="checkbox" name="do" id="do">
+    <label for="do">Dothraki</label><br>
+    <input type="checkbox" name="ky" id="ky">
+    <label for="ky">Kryptonese</label><br>
+    <input type="checkbox" name="kl" id="kl">
+    <label for="kl">Klingon</label><br>
+    <input type="checkbox" name="vu" id="vu">
+    <label for="vu">Vulcan</label><br>
+    <input type="checkbox" name="ali" id="ali">
+    <label for="ali">Alienese</label><br>
+    <input type="checkbox" name="el" id="el">
+    <label for="el">Elvish</label><br><br>
+    <label for="cell">Cell Phone Number</label><br>
+    <input type="number" name="cell" id="cell" placeholder="#######" min="100000000" max="999999999"><br><br>
+    <label for="ethnicity">Ethnicity</label><br>
+    <input type="radio" name="ethnicity" id="earthling" value="earthling">
+    <label for="earthling">Earthling</label><br>
+    <input type="radio" name="ethnicity" id="martian" value="martian">
+    <label for="martian">Martian</label><br>
+    <input type="radio" name="ethnicity" id="asgardian" value="asgardian">
+    <label for="asgardian">Asgardian</label><br><br>
+    <input type="checkbox" name="terms_of_use" id="terms_of_use">
+    <label for="terms_of_use">I swear that I totally read the terms of use</label><br><br>
+    <input type="submit" value="submit">
+</body>
+</html>
