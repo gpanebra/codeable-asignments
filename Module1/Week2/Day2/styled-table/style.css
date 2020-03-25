@@ -1,0 +1,21 @@
+.column1 {
+  width: 336px;
+  height: 32px;
+  left: 58px;
+  top: calc(50% - 32px / 2);
+
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+label{
+    display:flex;
+    align-items: center;
+    margin-right: 8px;
+}
+img{
+    height: 18px;
+}
